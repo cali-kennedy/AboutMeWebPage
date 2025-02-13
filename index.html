@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies the document type and language -->
+    <meta charset="UTF-8">
+    <!-- Sets the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the title of the webpage -->
+    <title>About Me</title>
+    <!-- Links the external CSS stylesheet for styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Links the external JavaScript file with deferred loading -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- About Me Opener -->
+    <div class="container">
+        <!-- Main heading of the page -->
+        <h1>About Me</h1>
+        <!-- Displays profile picture -->
+        <img src="../assets/images/profile_picture.jpeg" alt="Profile Picture">
+        <!-- Placeholder text for the introduction that will be updated by JavaScript -->
+        <p id="introduction">Click the button below to learn more about me!</p>
+        <!-- Button that triggers the introduction display function -->
+        <button class="button" onclick="showIntroduction()">Introduce Me</button>
+    </div>
+
+    <!-- HTML NewsLetter -->
+    <div class="email-example" style="margin-top: 40px; border: 1px solid #ccc; padding: 20px; background-color: #f3f3f3;">
+        <!-- Newsletter section heading -->
+        <h2 class="news_letter">Email Newsletter Example</h2>
+        <!-- Table layout for the newsletter to ensure compatibility with email clients -->
+        <table class="news_letter" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+            <tr>
+                <!-- Newsletter header with a welcome message -->
+                <td style="background-color: #e8a1ed; color: white; text-align: center; padding: 10px;">
+                    <h3 class="news_letter">Welcome to Cali Kennedy's Newsletter</h3>
+                </td>
+            </tr>
+            <tr>
+                <!-- Newsletter body with a personalized message -->
+                <td style="padding: 20px; text-align: left;">
+                    <p>Hello,</p>
+                    <p>I'm Cali Kennedy, an aspiring Systems Engineer at Acxiom. I love coding, cybersecurity, and building fun projects with JavaScript.</p>
+                    <p>Stay tuned for more updates!</p>
+                      <div style="margin-top: 20px;">
+                        <!-- Input field for entering email address -->
+                        <input type="email" id="emailInput" placeholder="Enter your email" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                        <!-- Button to subscribe to the newsletter -->
+                        <button class="subscribe_button" onclick="subscribeNewsletter()">Subscribe</button>
+                        <!-- Message area for subscription feedback -->
+                        <p id="subscribeMessage" style="color: green; margin-top: 10px;"></p>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <!-- Footer section with an unsubscribe link -->
+                <td style="background-color: #eda1e1cc; text-align: center; padding: 10px;">
+                    <p>© 2024 Cali Kennedy | 
+                        <!-- Link to unsubscribe from the newsletter -->
+                        <a href="#" style="color: white; text-decoration: none;" onclick="unsubscribeNewsletter(event)">Unsubscribe</a>
+                    </p>
+                    <!-- Message area for unsubscribe feedback -->
+                    <p id="unsubscribeMessage" style="color: red; margin-top: 10px;"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

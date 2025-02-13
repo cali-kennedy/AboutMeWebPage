@@ -1,0 +1,91 @@
+﻿@font-face {
+    font-family: 'CustomFont';
+    src: url('../assets/fonts/VT323-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CursiveCustomFont';
+    src: url('../assets/fonts/Pacifico-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NewsLetterCustomFont';
+    src: url('../assets/fonts/Prata-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6d2a1;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ec9548
+}
+
+p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #555;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #f6d2a1;
+}
+
+.news_letter {
+    font-family: 'NewsLetterCustomFont', sans-serif;
+}
+
+.button {
+    background-color: #ec9548;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #ff6a00;
+    }
+
+.subscribe_button {
+    background-color: #92ef77;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    .subscribe_button:hover {
+        background-color: #50c938;
+    }
