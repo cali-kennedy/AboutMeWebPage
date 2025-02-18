@@ -30,15 +30,72 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
+    margin-bottom : 15px;
     padding: 30px;
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align:center;
+}
+
+.left_align{
+    text-align:left;
 }
 
 h1 {
     color: #ec9548
 }
+
+.h2custom {
+    color: #ec9548
+}
+
+.custom_table {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 100%; /* Full width to span across the container */
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures columns are evenly spaced */
+}
+
+    .custom_table td {
+        padding: 10px; /* Adds padding to each cell */
+        vertical-align: middle; /* Aligns text vertically in the middle */
+    }
+
+.custom_table_h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ec9548;
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.custom_table_h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ec9548;
+    text-align: center;
+}
+
+.customOrangeColor {
+    color: #c87c38;
+    text-decoration: none; /* Removes the underline */
+    text-align: left; /* Aligns to the left */
+    padding-left: 0; /* Ensures it's flush to the left edge */
+}
+
+    .customOrangeColor a:hover {
+        text-decoration: underline; /* Adds underline on hover */
+        color: #ff6a00; /* Changes color on hover */
+    }
+
+.phoneNumber {
+    color: #c87c38;
+    font-size: 20px;
+    text-align: right; /* Aligns to the right */
+    padding-right: 5px; /* Ensures it's flush to the right edge */
+}
+
 
 p {
     font-size: 18px;
@@ -49,14 +106,34 @@ p {
 img {
     width: 200px;
     height: auto;
-    border-radius: 50%;
     margin: 20px 0;
     border: 5px solid #f6d2a1;
 }
 
-.news_letter {
-    font-family: 'NewsLetterCustomFont', sans-serif;
+.square_img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #f6d2a1;
 }
+
+.circular_img {
+    border-radius: 50%;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red-text {
+    color: red;
+}
+
 
 .button {
     background-color: #ec9548;

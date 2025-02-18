@@ -67,10 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\GoStudyGamePlay.jpg" />
+    <Content Include="assets\images\input_questions.jpg" />
     <Content Include="assets\images\profile_picture.jpeg" />
     <Content Include="css\styles.css" />
     <Content Include="index.html" />
-    <Content Include="js\script.js" />
+    <Content Include="js\cookies.js" />
+    <Content Include="js\showIntroduction.js" />
+    <Content Include="js\showSkills.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
